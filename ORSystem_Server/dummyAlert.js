@@ -1,14 +1,14 @@
 const WebSocket = require("ws");
 
 // Replace with your WebSocket server URL
-const SERVER_URL = "ws://localhost:5000/ws/alerts";
+const SERVER_URL = "ws://localhost:5050/ws/alerts";
 
 // Create 4 simulated ESP32 devices
 const DEVICES = [
-    "device-001",
-    "device-002",
-    "device-003",
-    // "device-004",
+    "device-004",
+    "device-005",
+    "device-006",
+    "device-007",
 ];
 
 // Helper function to generate random values
